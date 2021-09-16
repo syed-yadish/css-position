@@ -15,7 +15,7 @@ main {
 .nav {
   display: inline;
   position: absolute;
-  width: 1400px;
+  width: 1000px;
   height: 78px;
   left: 0px;
   top: 20px;
@@ -24,9 +24,9 @@ main {
 .logo {
   width: 143px;
   height: 29px;
-  left: 143.92px;
+  left: 120px;
   top: 22px;
-  position: fixed;
+  position: absolute;
 }
 li {
   display: inline;
@@ -51,11 +51,10 @@ li {
 
 .signin {
   position: absolute;
-  left: 74%;
-  right: 20%;
-  top: 19.23%;
-  bottom: 21.79%;
-  height: 24px;
+  left: 100%;
+  top: 20%;
+  height: 26px;
+  width: 80px;
   border: 1px solid #bcd0e5;
   box-sizing: border-box;
   border-radius: 4px;
@@ -63,18 +62,17 @@ li {
 
 .signup {
   position: absolute;
-  left: 80%;
-  right: 11%;
-  top: 19.23%;
-  bottom: 21.79%;
+  left: 110%;
+  top: 20%;
+  height: 26px;
   background: #ff9900;
   border-radius: 4px;
-  height: 24px;
+  width: 80px;
 }
 
 header {
   position: absolute;
-  width: 1126px;
+  width: 1000px;
   height: 496px;
   left: 120px;
   top: 120px;
@@ -202,13 +200,13 @@ header {
   width: 467px;
   height: 438px;
   left: 600px;
-  top: 20px;
+  top: 60px;
 
   background: #ffe5d2;
 }
 .section2 {
   position: absolute;
-  width: 1200px;
+  width: 1000px;
   height: 543px;
   left: 400px;
   top: 600px;
@@ -217,30 +215,30 @@ header {
 }
 .subsec2 {
   position: absolute;
-  width: 1080px;
+  width: 1000px;
   height: 220px;
   left: -280px;
   top: 180px;
 }
 .card1 {
   position: absolute;
-  width: 240px;
+  width: 220px;
   height: 204px;
-  left: 900px;
+  left: 860px;
   text-align: start;
 }
 .card2 {
   position: absolute;
-  width: 240px;
+  width: 220px;
   height: 204px;
-  left: 600px;
+  left: 580px;
   text-align: start;
 }
 .card3 {
   position: absolute;
-  width: 240px;
+  width: 220px;
   height: 204px;
-  left: 300px;
+  left: 280px;
   text-align: start;
 }
 .card4 {
@@ -286,7 +284,7 @@ header {
 
 .section3 {
   position: absolute;
-  width: 1100px;
+  width: 1000px;
   height: 600px;
   top: 1150px;
   left: 120px;
@@ -331,12 +329,99 @@ header {
 
   color: #544837;
 }
-footer {
+
+.btn_up2 {
   position: absolute;
-  width: 1110px;
+  width: 140px;
+  height: 40px;
+  top: 200px;
+  left: 750px;
+  background: #ff9900;
+  border-radius: 4px;
+}
+.section4 {
+  position: absolute;
+  width: 1000px;
+  height: 400px;
+  top: 1750px;
+  left: 120px;
+}
+.container4 {
+  position: absolute;
+  width: 500px;
+  left: 600px;
+  height: 300;
+}
+.tcard1 {
+  position: absolute;
+  width: 450px;
+  height: 40px;
+  top: 185px;
+  left: 40px;
+}
+.tcard2 {
+  position: absolute;
+  width: 450px;
+  height: 40px;
+  top: 250px;
+  left: 40px;
+}
+.tcard3 {
+  position: absolute;
+  width: 450px;
+  height: 40px;
+  top: 315px;
+  left: 40px;
+}
+.tick {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 40px;
+}
+.tickcard {
+  position: absolute;
+  width: 30px;
+  height: 220px;
+  top: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.img3 {
+  position: absolute;
+  width: 450px;
+  height: 438px;
+  right: 660px;
+  top: 20px;
+}
+.section5 {
+  position: absolute;
+  width: 1000px;
+  height: 600px;
+  top: 2300px;
+  left: 120px;
+}
+.container5 {
+  position: absolute;
+  width: 600px;
+}
+.img4 {
+  position: absolute;
+  width: 467px;
+  height: 438px;
+  left: 600px;
+  top: 60px;
+
+  background: #ffe5d2;
+}
+
+footer {
+  position: relative;
+  width: 1000px;
   height: 308px;
   left: 120px;
-  top: 1800px;
+  top: 2800px;
 }
 .footlogo {
   position: absolute;
@@ -379,13 +464,4 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-.btn_up2 {
-  position: absolute;
-  width: 140px;
-  height: 40px;
-  top: 200px;
-  left: 750px;
-  background: #ff9900;
-  border-radius: 4px;
 }
